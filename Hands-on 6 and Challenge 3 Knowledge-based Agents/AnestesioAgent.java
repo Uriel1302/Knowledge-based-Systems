@@ -8,7 +8,7 @@ import jade.lang.acl.ACLMessage;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class AnesthesiologistAgent extends Agent {
+public class AnestesioAgent extends Agent {
 
     Environment clips;
 
@@ -38,7 +38,7 @@ try{
                     block();
                 }
  } catch (CLIPSException ex) {
-                Logger.getLogger(AnesthesiologistAgent.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(AnestesioAgent.class.getName()).log(Level.SEVERE, null, ex);
             }
 
             }
