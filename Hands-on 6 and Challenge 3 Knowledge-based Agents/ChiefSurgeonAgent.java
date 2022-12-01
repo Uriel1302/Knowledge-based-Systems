@@ -33,7 +33,7 @@ try{
 
                     ACLMessage msg1 = new ACLMessage(ACLMessage.INFORM);
                     msg1.setContent("src/examples/clips/surgery/rules_anesthesiologist.clp");
-                    msg1.addReceiver(new AID("anesthesiologist",AID.ISLOCALNAME));
+                    msg1.addReceiver(new AID("anestesio",AID.ISLOCALNAME));
                     send(msg1);
                     
                 } else {
