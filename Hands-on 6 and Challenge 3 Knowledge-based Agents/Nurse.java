@@ -8,7 +8,7 @@ import net.sf.clipsrules.jni.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class NurseAgent extends Agent{
+public class Nurse extends Agent{
     Environment clips;
     protected void setup() {
         try {
