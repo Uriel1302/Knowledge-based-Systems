@@ -7,7 +7,7 @@ import jade.lang.acl.ACLMessage;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class SurgeonAgent extends Agent {
+public class Surgeon extends Agent {
 
     Environment clips;
     protected void setup() {
