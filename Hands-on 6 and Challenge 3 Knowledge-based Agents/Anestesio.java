@@ -8,7 +8,7 @@ import jade.lang.acl.ACLMessage;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class AnestesioAgent extends Agent {
+public class Anestesio extends Agent {
 
     Environment clips;
 
