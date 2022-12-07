@@ -9,7 +9,7 @@ import jade.lang.acl.ACLMessage;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class ChiefSurgeonAgent extends Agent {
+public class Chief extends Agent {
 
     Environment clips;
 
