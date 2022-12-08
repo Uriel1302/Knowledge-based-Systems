@@ -12,14 +12,12 @@ public class EmisorAgent extends Agent {
         addBehaviour(new OneShotBehaviour() {
             public void action() {
 
-                System.out.println("Paciente Pablo, a revisión con los sintomas de FIEBRE, CANSANCIO Y DOLOR DE ESTOMAGO");
+                System.out.println("Paciente Arnold, a revisión con los sintomas de RONCHAS, COMEZON Y FIEBRE");
                 ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
-                msg.setContent("(paciente (nombre Pablo)(sintoma1 cansancio) (sintoma2 fiebre) (sintoma3 dolor-estomago))");
-                msg.addReceiver(new AID("doctor",AID.ISLOCALNAME));
+                msg.setContent("(paciente (nombre Arnold) (sintoma1 ronchas) (sintoma2 comezon) (sintoma3 fiebre))");
+                
+		msg.addReceiver(new AID("doctor",AID.ISLOCALNAME));
                 send(msg);
 
 
-            }
-        });
-    }   
-}
+ 
